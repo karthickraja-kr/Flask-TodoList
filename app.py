@@ -19,7 +19,7 @@ auth = firebase.auth()
 
 app = Flask(__name__)
 # Home page
-app.secret_key = "karthick"
+app.secret_key = ""
 
 
 @app.route("/")
